@@ -1,0 +1,122 @@
+@import url('https://fonts.cdnfonts.com/css/songer-condensed');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #5C4673;
+    font-family: 'SONGER Grotesque', sans-serif;
+                                                
+}
+
+header{
+    background-color: #1F2226;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.btn-usuario {
+    margin-right: 20px;
+    gap: 10px;
+}
+
+
+
+#btn-sair, #btn-usuario {
+    width: 150px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    text-decoration: none;
+    background-color: #A65371;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    font-family: 'SONGER Grotesque', sans-serif;
+}
+
+#btn-sair:hover {
+    transform: scale(1.1);
+}
+
+#btn-usuario:hover {
+    background-color: #9C7CC4;
+    color: white;
+    transform: scale(1.1);
+}
+
+hr {
+    width: 70%;
+    background-color: #381659;
+    border: none;
+    height: 1px;
+}
+
+#hrTarefas {
+    width: 200px;
+    margin: 0px;
+    background-color: #FFC61A;
+    border: none;
+}
+
+
+footer{
+    margin-top: 250px;
+    background-color: #9265A6;
+    color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    color: white;
+    background-color: #A663A1;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 350px;
+    height: 400px;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+li {
+    font-size: 25px;
+}
+
+input {
+    width: 260px;
+    height: 25px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+button {
+    width: 150px;
+    margin-top: 25px;
+    height: 30px;
+    font-size: 15px;
+    background-color: #7FA62D;
+    border: none;
+    color: white; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+button:hover {
+    background-color: #FF2F43;
+    color: white;
+    transform:scale(1.2);
+}
+

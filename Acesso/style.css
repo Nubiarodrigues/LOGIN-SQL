@@ -1,0 +1,62 @@
+@import url('https://fonts.cdnfonts.com/css/kodchasan');
+
+body {
+    font-family: 'Kodchasan', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-image: url(image/teste4.jpg);
+    background-size: cover;
+    
+}
+.container {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 480px;
+    padding: 25px;
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border: 1px solid black;
+}
+
+#login {
+    width: 150px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+#input-user {
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+#input-user:hover{
+    background-color: #F2E6D0;
+    transform: scale(1.1);
+}
+
+button {
+    width: 140px;
+    height: 40px;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+button:hover{
+    background-color: #84B026;
+    transform: scale(1.1);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
